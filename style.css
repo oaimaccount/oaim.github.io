@@ -616,7 +616,10 @@ float:left;
 margin: 9px;
 border:#ccd8dd transparent;
 opacity:0.6;
- border-radius: 50%;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+background-size: cover;
 }
 #table-featured
 {
