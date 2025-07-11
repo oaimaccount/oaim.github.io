@@ -5,8 +5,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = password_hash($_POST["password"], PASSWORD_DEFAULT); // Enkripsi password
 
   //  Koneksi ke database (contoh)
-  //$conn = new mysql("localhost", "username", "password", "database");
-  $conn = new mysql("localhost", "username", "password", "dbdata");
+  //$conn = new mysqli("localhost", "username", "password", "database");
+  $conn = new mysqli("localhost", "username", "password", "dbdata");
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
   }
