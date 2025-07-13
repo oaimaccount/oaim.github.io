@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 13, 2025 at 03:55 PM
+-- Generation Time: Jul 13, 2025 at 06:35 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -41,6 +41,7 @@ INSERT INTO `data1` (`nama`, `email`, `pasword`) VALUES
 ('', '[value-2]', '0'),
 ('bukan anak punk', 'punk@gmail.com', '$2y$10$pK5ryhZXXLYjP4f0V2E.8ePy75rE/lNq7gYYfFcTgnkZw/kADXM8O'),
 ('kohar abdul gani', 'kohar@gmail.com', '$2y$10$0m4h0/AOYp3QAUfVEI'),
+('lontar', 'lontar@gmail.com', '$2y$10$OM5d6/3UxT1cBvjG2aYNo.KFUOttFEr9lpOp8dLr63uf0omUjCvnO'),
 ('mangga', 'mangga@gmail.com', '$2y$10$0a/Se6T/cp.FpRY6tV1t8OWuN37t9odWZ6/zk0djmnOPLiX5svGYq'),
 ('mislu', 'mislu@gmail.com', '$2y$10$f4VFABRIsUgs0D3kwp'),
 ('porter perk', 'porter@gmail.com', '$2y$10$sLfUsbF9C04/87IxllfXxeGaKVaDwZXvbxWwA4i0XUAP2CzQc546i'),
