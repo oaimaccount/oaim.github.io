@@ -113,7 +113,17 @@ HOME
         <a href="#ddd">Salah satu cita-cita dan tujuan destinasi yang ingin dikunjungi suasana pegunungan spertinya mengasyikan salah satu diantaranya pegunungan Alpen</a>
     </li>
 
+  <script>
+     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+       anchor.addEventListener('click', function (e) {
+         e.preventDefault();
 
+         document.querySelector(this.getAttribute('href')).scrollIntoView({
+           behavior: 'smooth'
+         });
+       });
+     });
+   </script>
 </ul></div>
  <div id="progress"></div>
  <div id="overlay"></div>
